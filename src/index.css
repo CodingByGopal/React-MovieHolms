@@ -1,0 +1,231 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+}
+/* swiper customization */
+
+.swiper-pagination-bullet {
+  width: 0.7rem !important;
+  height: 0.7rem !important;
+  display: inline-block;
+  border-radius: 50%;
+  background: white !important;
+  opacity: 0.1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 0.4 !important;
+  background: white !important;
+}
+
+.swiper-horizontal.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 2rem !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  top: 52% !important;
+  width: 1.2rem !important;
+  height: 2rem !important;
+  color: #fff !important;
+  background-color: #121212;
+  border-radius: 50%;
+  font-weight: 700 !important;
+  padding: 1rem;
+  opacity: 0.8;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-family: swiper-icons;
+  font-size: 0.8rem !important;
+}
+
+/* left, right, bottom and top movement animations */
+
+.fadeInAnimation {
+  animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.moveLeftAnimation {
+  animation: moveInLeft 1s ease-out;
+  backface-visibility: hidden;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  80% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.moveTopAnimationOne {
+  animation: moveInTop 0.3s ease-out 0.2s;
+  animation-fill-mode: backwards;
+  backface-visibility: hidden;
+}
+
+.moveTopAnimationTwo {
+  animation: moveInTop 0.3s ease-out 0.4s;
+  animation-fill-mode: backwards;
+  backface-visibility: hidden;
+}
+.moveTopAnimationThree {
+  animation: moveInTop 0.3s ease-out 0.5s;
+  animation-fill-mode: backwards;
+  backface-visibility: hidden;
+}
+.moveTopAnimationModal {
+  animation: moveInTop 0.2s ease-out 0.1s;
+  animation-fill-mode: backwards;
+  backface-visibility: hidden;
+}
+
+@keyframes moveInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.moveRightAnimation {
+  animation: moveInRight 1s ease-out;
+  backface-visibility: hidden;
+}
+.reveal-right {
+  animation: moveInRight 1s ease-out 0.3s;
+  backface-visibility: hidden;
+  animation-fill-mode: backwards;
+}
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  80% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.moveBottomAnimation {
+  animation: moveInBottom 0.5s ease-out 0.2s;
+  animation-fill-mode: backwards;
+  backface-visibility: hidden;
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+/* Section reveal animation classes  */
+.section {
+  transition: all 0.8s;
+}
+.section--hidden {
+  opacity: 0;
+  transform: translateY(5rem);
+}
+
+/* ////// Image laoding animation ////// */
+
+.loading {
+  filter: blur(10px);
+  clip-path: inset(0);
+}
+.loaded {
+  filter: blur(0px);
+  transition: filter 0.5s linear;
+}
+
+/* ///skeleton laoding shimmer animation/// */
+
+.skeleton-box-full {
+  position: relative;
+  overflow: hidden;
+  background-color: #1111;
+}
+
+.skeleton-box-full::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-100%);
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0,
+    rgba(255, 255, 255, 0.067) 20%,
+    rgba(255, 255, 255, 0.088) 60%,
+    rgba(255, 255, 255, 0)
+  );
+  animation: shimmer 3s infinite;
+  content: "";
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* custom-padding */
+.movieCard {
+  padding-top: 160%;
+}
+
+.scrollBarCustom::-webkit-scrollbar {
+  width: 15px;
+}
+
+.scrollBarCustom::-webkit-scrollbar-track {
+  background: #333; /* color of the tracking area */
+}
+
+.scrollBarCustom::-webkit-scrollbar-thumb {
+  background-color: #555; /* color of the scroll thumb */
+}
