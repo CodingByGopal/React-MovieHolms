@@ -1,6 +1,6 @@
 # MovieNuggets — Ratings, Reviews, and Where to Watch the Best Movies & TV Shows
 
-MovieNuggets is the biggest and authoritative source for movie, TV and celebrity content collection platform. Website is responsive and completely free to use. You can find ratings and details for the newest movie and TV shows and you can watch trailers and other relevant video too with in platform. Get similar movie/series recommendations, and learn where to watch across hundreds of streaming providers.
+MovieNuggets is the biggest and most authoritative source for movie, TV, and celebrity content collection platform. The website is responsive and completely free to use. You can find ratings and details for the newest movies and TV shows and you can watch trailers and other relevant videos too within the platform. Get similar movie/series recommendations, and learn where to watch across hundreds of streaming providers.
 
 ## Development And Optimizations
 
