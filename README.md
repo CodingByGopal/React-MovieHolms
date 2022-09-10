@@ -4,7 +4,7 @@ MovieNuggets is the biggest and most authoritative source for movie, TV, and cel
 
 ## Development And Optimizations
 
-MovieNuggets has been developed using React.js and Tailwind css. It have many features of morden UI example react top loading bar and react-loader-spinner , skeleton loading while fetching data from API , lazy image loading and so on. For providing smooth animations, skeleton loading and lazy image loading, Intersection observer Api has been used. Custom hooks and components has been created to keep code methodology 'DRY'. One of the most popular slider package "SWIPER.JS" has been used which provides amazing UI design. MovieNuggest is loaded with Image optimazation , data fetching optimization, intersection observer api features and so many other morden UI features. All components has been hand coded as no component library was used to deisgn componenets.
+MovieNuggets has been developed using React.js and Tailwind CSS. It has many features of modern UI example react top loading bar and react-loader-spinner, skeleton loading while fetching data from API, lazy image loading, and so on. For providing smooth animations, skeleton loading, and lazy image loading, Intersection observer API has been used. Custom hooks and components have been created to keep the code methodology 'DRY'. One of the most popular slider packages "SWIPER.JS" has been used which provides amazing UI design. MovieNuggest is loaded with Image optimization, data fetching optimization, intersection observer API features, and so many other modern UI features. All components have been hand coded as no component library was used to design components.
 
 ## Api
 
