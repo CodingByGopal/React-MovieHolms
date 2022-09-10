@@ -109,7 +109,7 @@ Start the server
 
 # Hi, my name is Gopal ji! 👋
 
-![developer](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/4a77e4f5004930315ad58087ae87161d4f8ef9fd/Mn-developer.png)
+![developer](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/e0001ec429177f27c81a2924adf90e86989c101a/Mn-Developer-page-New.png)
 
 ## 🚀 About Me
 
