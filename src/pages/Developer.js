@@ -68,7 +68,25 @@ const Developer = ({ setProgress }) => {
                 more then welcome to share it with me. Get in touch with me on
                 these social links.
               </p>
-
+              <p className="text-gray-300  md:text-lg text-base md:mb-10 mb-5">
+                My name is Gopal Ji. I'm a front-end web developer. I developed
+                MovieNuggests to provide a platform for the latest movies,
+                series, person details, trailers, and streaming platforms. It is
+                free of cost to use. However, to watch the movie/series, you
+                will be navigated to the TMDB website as that is the original
+                source of data. MovieNuggest uses the{" "}
+                <a
+                  className=" text-blue-500 font-semibold hover:text-blue-600  hover:underline"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  href="https://developers.themoviedb.org/3/getting-started/introduction"
+                >
+                  TMDb Api
+                </a>{" "}
+                as a source of data. If you have any queries or suggestions, you
+                are more than welcome to share them with me. Get in touch with
+                me on these social links.
+              </p>
               <div className="  flex gap-7 pb-6 md:justify-start justify-evenly ">
                 {socialData?.map((item, index) => {
                   return (
