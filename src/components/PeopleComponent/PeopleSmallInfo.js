@@ -11,6 +11,7 @@ const PeopleSmallInfo = ({ dataProps }) => {
       setGender("Male");
     }
   }, [dataProps?.gender]);
+
   const dataList = [
     {
       heading: "Known For",

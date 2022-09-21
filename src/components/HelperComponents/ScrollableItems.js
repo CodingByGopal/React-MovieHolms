@@ -76,10 +76,7 @@ const ScrollableItems = ({
       )}
 
       {(!scrollableItemsProps || scrollableItemsProps?.length === 0) && (
-        <p>
-          Enough data is not available to suggest more{" "}
-          {categoryOfUrlProps === "tv" ? "series" : `${categoryOfUrlProps}s`}
-        </p>
+        <p>Details not available</p>
       )}
     </>
   );

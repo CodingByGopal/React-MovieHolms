@@ -8,7 +8,7 @@ import { useState } from "react";
 const App = () => {
   const [progress, setProgress] = useState(0);
   return (
-    <div className="  overflow-hidden overflow-x-hidden bg-[#121212] text-slate-50 ">
+    <main className="  overflow-hidden overflow-x-hidden bg-[#121212] text-slate-50 ">
       <LoadingBar
         color="#dc2626"
         height={3}
@@ -23,7 +23,7 @@ const App = () => {
       <AllRoute setProgress={setProgress} />
 
       <Footer />
-    </div>
+    </main>
   );
 };
 

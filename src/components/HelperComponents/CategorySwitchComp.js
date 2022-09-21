@@ -21,7 +21,7 @@ const CategorySwitchComp = ({
   }  transition-all  duration-300`;
 
   return (
-    <div className=" max-w-screen-2xl mx-auto">
+    <section className=" max-w-screen-2xl mx-auto">
       <PageHeader headerImgProps={bgProps} headingCenter={headingCenterProps} />
       <div className="md:flex md:justify-center  md:mb-10 mt-2  lg:px-28 md:px-16  px-8  ">
         <div className={className}>
@@ -53,7 +53,7 @@ const CategorySwitchComp = ({
         urlChangeProps={urlChange}
         fetchUrl={url}
       />
-    </div>
+    </section>
   );
 };
 

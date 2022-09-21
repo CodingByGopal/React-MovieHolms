@@ -51,7 +51,7 @@ const SingleResultMovieTv = ({ setProgress }) => {
 
   if (isLoading) return <LoadingBars />;
   return (
-    <div>
+    <section>
       <SingleMovieTvHeader
         hrefWatchProvider={watchProviderLink}
         categoryOfUrlProps={categoryOfUrl}
@@ -121,7 +121,7 @@ const SingleResultMovieTv = ({ setProgress }) => {
         similarDataProps={data?.similar?.results?.slice(0, 7)}
         categoryDetails={categoryOfUrl}
       />
-    </div>
+    </section>
   );
 };
 

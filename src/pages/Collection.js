@@ -66,7 +66,7 @@ const Collection = ({ setProgress }) => {
                 )}
               </p>
             ) : (
-              "No Summary Given"
+              <p className=" mb-4 text-sm">No Summary Given</p>
             )}
           </div>
           <div className="moveLeftAnimation grid xl:grid-cols-6 lg:grid-cols-4 sm:grid-cols-3  grid-cols-2 lg:gap-4 gap-3">

@@ -51,7 +51,7 @@ const AllVideosPage = ({ setProgress }) => {
   if (isLoading) return <LoadingBars />;
 
   return (
-    <div className=" max-w-screen-2xl mx-auto  pb-14">
+    <section className=" max-w-screen-2xl mx-auto  pb-14">
       <PageHeader
         headingCenter={`${
           data?.title ||
@@ -76,7 +76,7 @@ const AllVideosPage = ({ setProgress }) => {
             <ButtonFilled name="Load More" btnOnClickAction={loadMoreVideos} />
           </div>
         )}
-    </div>
+    </section>
   );
 };
 

@@ -13,7 +13,7 @@ const ErrorPage = ({ setProgress }) => {
     }, 100);
   }, [setProgress]);
   return (
-    <div className=" md:pt-28 pt-32 ">
+    <section className=" md:pt-28 pt-32 ">
       <div className="  flex justify-center ">
         <LazyImg
           alt="Page not found"
@@ -31,7 +31,7 @@ const ErrorPage = ({ setProgress }) => {
           btnOnClickAction={() => navigate("/")}
         />
       </div>
-    </div>
+    </section>
   );
 };
 

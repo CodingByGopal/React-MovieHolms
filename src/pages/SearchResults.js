@@ -137,6 +137,7 @@ const SearchResults = ({ setProgress }) => {
 
                     {item?.media_type === "person" && (
                       <PersonResults
+                        genderProps={item?.gender}
                         id={item?.id}
                         profile_path={item?.profile_path}
                         name={item?.name}

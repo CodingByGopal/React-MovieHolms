@@ -62,7 +62,7 @@ const GetSeriesSeasonDetail = ({ setProgress }) => {
 
   if (isLoading || loading) return <LoadingBars />;
   return (
-    <div className=" max-w-screen-2xl mx-auto  pb-20 ">
+    <section className=" max-w-screen-2xl mx-auto  pb-20 ">
       <div className=" mb-4">
         <PageHeader
           headingCenter={heading}
@@ -131,7 +131,7 @@ const GetSeriesSeasonDetail = ({ setProgress }) => {
         </div>
         <AllVideosGrid filterYoutubeVideosProps={videosData} />
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -47,7 +47,7 @@ const Faq = ({ setProgress }) => {
     },
   ];
   return (
-    <div className=" max-w-screen-2xl mx-auto ">
+    <section className=" max-w-screen-2xl mx-auto ">
       <PageHeader headerImgProps={bg} headingCenter="Website FAQ" />
       <div className="reveal-right px-5 pt-5 lg:pb-40  pb-20">
         <div
@@ -69,7 +69,7 @@ const Faq = ({ setProgress }) => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

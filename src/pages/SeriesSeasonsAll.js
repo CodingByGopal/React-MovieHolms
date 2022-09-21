@@ -39,7 +39,7 @@ export const SeriesSeasonsAll = ({ setProgress }) => {
   console.log(seasonsSliced?.length);
   if (isLoading) return <LoadingBars />;
   return (
-    <div className=" max-w-screen-2xl mx-auto md:pb-20 pb-10">
+    <section className=" max-w-screen-2xl mx-auto md:pb-20 pb-10">
       <PageHeader
         headingCenter={`${data?.name || data?.original_name} - Seasons`}
         headerImgProps={
@@ -76,6 +76,6 @@ export const SeriesSeasonsAll = ({ setProgress }) => {
           <ButtonFilled name="Load More" btnOnClickAction={loadMore} />
         </div>
       )}
-    </div>
+    </section>
   );
 };

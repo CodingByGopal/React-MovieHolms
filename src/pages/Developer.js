@@ -32,7 +32,7 @@ const Developer = ({ setProgress }) => {
     },
   ];
   return (
-    <div className=" max-w-screen-2xl mx-auto bg-gradient-to-t from-[#151515] to-[#999] ">
+    <section className=" max-w-screen-2xl mx-auto bg-gradient-to-t from-[#151515] to-[#999] ">
       <div className="  max-w-5xl mx-auto md:py-36 py-24 px-5  ">
         <div className="moveLeftAnimation rounded-xl overflow-hidden shadow-2xl shadow-black">
           <div className="   grid md:grid-cols-6 grid-cols-1  ">
@@ -89,7 +89,7 @@ const Developer = ({ setProgress }) => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

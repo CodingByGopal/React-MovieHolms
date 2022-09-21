@@ -56,7 +56,7 @@ const FullCast = ({ setProgress }) => {
   if (isLoading) return <LoadingBars />;
 
   return (
-    <div className=" max-w-screen-2xl mx-auto">
+    <section className=" max-w-screen-2xl mx-auto">
       <PageHeader
         headingCenter={`${
           data?.title ||
@@ -106,7 +106,7 @@ const FullCast = ({ setProgress }) => {
             )}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

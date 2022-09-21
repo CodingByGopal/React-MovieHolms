@@ -15,7 +15,7 @@ const Home = ({ setProgress }) => {
   ];
 
   return (
-    <div className="max-w-screen-2xl mx-auto">
+    <section className="max-w-screen-2xl mx-auto">
       <Slider setProgress={setProgress} />
       <div className=" pt-10">
         {textAndUrlList?.map((item) => {
@@ -24,7 +24,7 @@ const Home = ({ setProgress }) => {
       </div>
 
       <div className=" mb-20"> </div>
-    </div>
+    </section>
   );
 };
 

@@ -73,7 +73,7 @@ const GenreComp = ({ categoryOfUrl, setProgress }) => {
       </Swiper>
 
       {(!scrollableItems || scrollableItems?.length === 0) && (
-        <p>
+        <p className=" my-2">
           Enough data is not available to suggest{" "}
           {categoryOfUrl === "tv" ? "series" : categoryOfUrl} genres
         </p>
