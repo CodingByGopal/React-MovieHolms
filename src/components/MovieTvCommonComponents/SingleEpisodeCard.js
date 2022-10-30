@@ -4,7 +4,6 @@ import LazyImg from "../LoadingPlaceHolders/LazyImg";
 import CastCrewCard from "./CastCrewCard";
 import episode from "../../images/episode.jpg";
 import eWhite from "../../images/e-white.png";
-import useElementOnScreen from "../../api/useElementOnScreen";
 
 const SingleEpisodeCard = ({
   air_date,
@@ -30,18 +29,8 @@ const SingleEpisodeCard = ({
     setNoOfElementsCrew((prev) => prev + 5);
   };
 
-  const [containerRef, isVisible] = useElementOnScreen({
-    root: null,
-    threshold: 0,
-  });
-
   return (
-    <div
-      ref={containerRef}
-      className={`section ${
-        isVisible ? "" : "section--hidden"
-      } md:p-10 p-5  shadow-2xl shadow-black bg-[#1c1c1c] rounded-lg  `}
-    >
+    <div className="md:p-10 p-5  shadow-2xl shadow-black bg-[#1c1c1c] rounded-lg ">
       <div className=" md:flex md:gap-8 mb-8">
         <LazyImg
           alt={name}

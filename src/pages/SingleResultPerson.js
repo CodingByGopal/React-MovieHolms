@@ -62,7 +62,7 @@ const SingleResultPerson = ({ setProgress }) => {
   if (isLoading) return <LoadingBars />;
   return (
     <section className=" md:pb-20 pb-14 md:pt-32 pt-24  xl:px-40 lg:px-28 md:px-10 px-5 max-w-screen-2xl mx-auto">
-      <div className="moveBottomAnimation sm:shadow-2xl sm:shadow-black  sm:p-10 p-0 sm:bg-[#1c1c1c] rounded-xl grid sm:grid-cols-8 grid-cols-1 sm:gap-5 gap-8 mb-10">
+      <div className="sm:shadow-2xl sm:shadow-black  sm:p-10 p-0 sm:bg-[#1c1c1c] rounded-xl grid sm:grid-cols-8 grid-cols-1 sm:gap-5 gap-8 mb-10">
         <div className="sm:col-start-1 sm:col-end-3 ">
           <LeftGridPeople dataProps={data} />
         </div>

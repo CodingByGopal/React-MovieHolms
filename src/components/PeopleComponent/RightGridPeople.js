@@ -6,7 +6,7 @@ const RightGridPeople = ({ dataProps }) => {
   return (
     <>
       <span className=" opacity-40  sm:hidden block border-t mb-4"></span>
-      <Heading headingText={dataProps?.name} />
+      <Heading className="moveBottomAnimation " headingText={dataProps?.name} />
       <h2 className=" mb-4 text-lg md:text-xl  font-semibold">Biography</h2>
       {dataProps?.biography ? (
         <p className="opacity-80    md:text-base text-sm">

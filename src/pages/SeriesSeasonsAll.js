@@ -36,7 +36,7 @@ export const SeriesSeasonsAll = ({ setProgress }) => {
       setProgress(100);
     }
   }, [setProgress, isLoading]);
-  console.log(seasonsSliced?.length);
+
   if (isLoading) return <LoadingBars />;
   return (
     <section className=" max-w-screen-2xl mx-auto md:pb-20 pb-10">
