@@ -15,7 +15,7 @@ const Developer = ({ setProgress }) => {
 
   const socialData = [
     {
-      link: "https://www.linkedin.com/in/gopal-ji-470753218/",
+      link: "https://www.linkedin.com/in/gopal-ji",
       icon: <i className="  fa-brands fa-linkedin"></i>,
     },
     {
