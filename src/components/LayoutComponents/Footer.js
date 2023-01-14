@@ -52,9 +52,15 @@ const Footer = () => {
         backgroundImage: `linear-gradient(rgba(0,0,0,0.6),#121212),url(${footerImg})`,
       }}
     >
-      <div className=" md:text-base text-sm px-5  md:pb-16 pb-10  pt-14  flex justify-center items-center flex-col ">
+      <div className=" md:text-base text-sm px-5  md:pb-16 pb-10  md:pt-14 pt-10  flex justify-center items-center flex-col ">
         <Link to="/">
-          <img src={logo} alt="logo" className=" md:w-52  w-44  mb-10 " />
+          {/* <img src={logo} alt="logo" className=" md:w-52  w-44  mb-10 " /> */}
+          <div className=" flex items-center gap-2 mb-10">
+            <img src={logo} alt="logo" className=" lg:h-14 h-10 " />
+            <span className=" md:text-xl  text-base   font-medium  tracking-[0.2rem] md:tracking-[0.3rem]">
+              MovieHolms
+            </span>
+          </div>
         </Link>
 
         <div className="  grid-cols-3 grid md:gap-40 gap-5  mb-8 font-semibold">

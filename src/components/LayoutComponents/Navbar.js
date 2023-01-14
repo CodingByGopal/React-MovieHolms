@@ -56,14 +56,19 @@ const Navbar = () => {
           : " "
       } `}
     >
-      <div className=" max-w-screen-2xl mx-auto md:flex py-4 lg:px-10 px-4 items-center justify-between">
+      <div className=" max-w-screen-2xl mx-auto md:flex py-3 lg:px-6 px-4 items-center justify-between">
         <Link to="/">
-          <img src={image} alt="logo" className=" lg:h-14 h-12 " />
+          <div className=" flex items-center gap-2">
+            <img src={image} alt="logo" className=" lg:h-14 h-10 " />
+            <span className=" md:text-xl  text-base   font-medium  tracking-[0.2rem] md:tracking-[0.3rem]">
+              MovieHolms
+            </span>
+          </div>
         </Link>
 
         <div
           onClick={() => setOpen(!open)}
-          className="text-3xl absolute  right-8 top-6 z-40 cursor-pointer md:hidden text-gray-50 "
+          className="text-2xl absolute  right-8  top-4 z-40 cursor-pointer md:hidden text-gray-50 "
         >
           {open ? (
             <i title="close" className="fa-solid fa-xmark"></i>
