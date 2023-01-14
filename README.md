@@ -1,14 +1,14 @@
-# MovieNuggets — Ratings, Reviews, and Where to Watch the Best Movies & TV Shows
+# MovieHolms — Ratings, Reviews, and Where to Watch the Best Movies & TV Shows
 
-MovieNuggets is the biggest and most authoritative source for movie, TV, and celebrity content collection platform. The website is responsive and completely free to use. You can find ratings and details for the newest movies and TV shows and you can watch trailers and other relevant videos too within the platform. Get similar movie/series recommendations, and learn where to watch across hundreds of streaming providers.
+MovieHolms is the biggest and most authoritative source for movie, TV, and celebrity content collection platform. The website is responsive and completely free to use. You can find ratings and details for the newest movies and TV shows and you can watch trailers and other relevant videos too within the platform. Get similar movie/series recommendations, and learn where to watch across hundreds of streaming providers.
 
 ## Development And Optimizations
 
-MovieNuggets has been developed using React.js and Tailwind CSS. It has many features of modern UI example react top loading bar and react-loader-spinner, skeleton loading while fetching data from API, lazy image loading, and so on. For providing smooth animations, skeleton loading, and lazy image loading, Intersection observer API has been used. Custom hooks and components have been created to keep the code methodology 'DRY'. One of the most popular slider packages "SWIPER.JS" has been used which provides amazing UI design. MovieNuggest is loaded with Image optimization, data fetching optimization, intersection observer API features, and so many other modern UI features. All components have been hand coded as no component library was used to design components.
+MovieHolms has been developed using React.js and Tailwind CSS. It has many features of modern UI example react top loading bar and react-loader-spinner, skeleton loading while fetching data from API, lazy image loading, and so on. For providing smooth animations, skeleton loading, and lazy image loading, Intersection observer API has been used. Custom hooks and components have been created to keep the code methodology 'DRY'. One of the most popular slider packages "SWIPER.JS" has been used which provides amazing UI design. MovieHolms is loaded with Image optimization, data fetching optimization, intersection observer API features, and so many other modern UI features. All components have been hand coded as no component library was used to design components.
 
 ## Api
 
-MovieNuggests uses the [TMDb Api](https://developers.themoviedb.org/3/getting-started/introduction) as source of data
+MovieHolms uses the [TMDb Api](https://developers.themoviedb.org/3/getting-started/introduction) as source of data
 
 ## Resource
 
@@ -113,7 +113,7 @@ Start the server
 
 ## 🚀 About Me
 
-I'm a front-end web developer. I'm the developer of MovieNuggets Website.
+I'm a front-end web developer. I'm the developer of MovieHolms Website.
 
 ## 🛠 Skills
 

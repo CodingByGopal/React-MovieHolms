@@ -12,7 +12,7 @@ const Faq = ({ setProgress }) => {
   }, [setProgress]);
   const qa = [
     {
-      ques: "How can I contact MovieNuggest?",
+      ques: "How can I contact MovieHolms?",
       ans: "You can find contact link in Developer section",
     },
     {
@@ -24,7 +24,7 @@ const Faq = ({ setProgress }) => {
       ans: "No, our website is free to use .",
     },
     {
-      ques: "Can I watch videos on MovieNuggest",
+      ques: "Can I watch videos on MovieHolms",
       ans: "Most of our movies and TV shows have trailers, clips and featurettes which can be viewed on our site. However, we do not stream or play any of the actual movies or TV shows.",
     },
     {
@@ -39,7 +39,7 @@ const Faq = ({ setProgress }) => {
     },
     {
       ques: "Do you have copyright of data?",
-      ans: " No we do not have copyright of poster and other movie data. Data has been used from TMDB Api. MovieNuggest uses the TMDb Api as source of data but is not endorsed or certified by TMDB.",
+      ans: " No we do not have copyright of poster and other movie data. Data has been used from TMDB Api. MovieHolms uses the TMDb Api as source of data but is not endorsed or certified by TMDB.",
     },
     {
       ques: "Do you provide purchase support for JustWatch or TMDB too?",

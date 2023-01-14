@@ -105,7 +105,7 @@ const Footer = () => {
         </div>
       </div>
       <p className=" text-center text-xs py-5    ">
-        &copy; {fullYear} MovieNuggets By{" "}
+        &copy; {fullYear} MovieHolms By{" "}
         <Link to={"/developer"}>
           <span className=" font-bold  border-b-2 border-transparent hover:border-red-600 text-slate-200 ">
             Gopal Ji
