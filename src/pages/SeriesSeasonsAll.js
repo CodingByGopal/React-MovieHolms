@@ -52,7 +52,7 @@ export const SeriesSeasonsAll = ({ setProgress }) => {
       <div
         className={`${
           seasonsSliced?.length <= 2 ? " xl:grid-cols-1" : "xl:grid-cols-2"
-        } moveRightAnimation grid  grid-cols-1 gap-6 mt-10 xl:px-40 lg:px-28 md:px-10 px-5 max-w-screen-2xl mx-auto`}
+        } grid  grid-cols-1 gap-6 mt-10 xl:px-40 lg:px-28 md:px-10 px-5 max-w-screen-2xl mx-auto`}
       >
         {seasonsSliced?.map((item) => {
           return (
