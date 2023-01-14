@@ -61,55 +61,23 @@ Start the server
 
 ## Preview
 
-![Hero](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/4a77e4f5004930315ad58087ae87161d4f8ef9fd/Mn-Hero.png)
+![Hero](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/main/movieholms/homepage-slider.png)
 
-![trending](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/4a77e4f5004930315ad58087ae87161d4f8ef9fd/Mn-trending.png)
+![Movies](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/main/movieholms/movies-page.png)
+![series](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/main/movieholms/series-page.png)
+![actors](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/main/movieholms/actors-page.png)
+![search](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/main/movieholms/serach-page.png)
+![details-page](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/main/movieholms/details-page.png)
+![Trailer](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/main/movieholms/trailer.png)
+![seriesseasons](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/main/movieholms/series-all-seasons.png)
+![actors-details](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/main/movieholms/actor-details-page.png)
+![all videos](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/main/movieholms/videos-page.png)
 
-![Movies](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/4a77e4f5004930315ad58087ae87161d4f8ef9fd/Mn-movies.png)
 
-![Series](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/4a77e4f5004930315ad58087ae87161d4f8ef9fd/Mn-series.png)
-
-![People](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/4a77e4f5004930315ad58087ae87161d4f8ef9fd/Mn-people.png)
-
-![Single Results](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/4a77e4f5004930315ad58087ae87161d4f8ef9fd/Mn-single-Movie.png)
-
-![Modal video player](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/4a77e4f5004930315ad58087ae87161d4f8ef9fd/Mn-trailer.png)
-
-![Top Billed Cast](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/4a77e4f5004930315ad58087ae87161d4f8ef9fd/Mn-top-billed-cast.png)
-
-![Other details and collections](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/4a77e4f5004930315ad58087ae87161d4f8ef9fd/Mn-other-and-collections.png)
-
-![Popular videos](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/4a77e4f5004930315ad58087ae87161d4f8ef9fd/Mn-popular-videos.png)
-
-![Similar movies](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/4a77e4f5004930315ad58087ae87161d4f8ef9fd/Mn-similar.png)
-
-![Full cast](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/4a77e4f5004930315ad58087ae87161d4f8ef9fd/Mn-cast-crew.png)
-
-![full collection ](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/4a77e4f5004930315ad58087ae87161d4f8ef9fd/Mn-FullCollection.png)
-
-![All videos ](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/4a77e4f5004930315ad58087ae87161d4f8ef9fd/Mn-AllVideos.png)
-
-![series seasons](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/4a77e4f5004930315ad58087ae87161d4f8ef9fd/Mn-series-all-seasons.png)
-
-![series episodes](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/4a77e4f5004930315ad58087ae87161d4f8ef9fd/Mn-series-episodes.png)
-
-![Perosn single](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/4a77e4f5004930315ad58087ae87161d4f8ef9fd/Mn-single-person.png)
-
-![person known ffor](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/4a77e4f5004930315ad58087ae87161d4f8ef9fd/Mn-knownFor-other-details.png)
-
-![Person work](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/4a77e4f5004930315ad58087ae87161d4f8ef9fd/Mn-work-DonePeople.png)
-
-![search](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/4a77e4f5004930315ad58087ae87161d4f8ef9fd/Mn-search.png)
-
-![search results](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/4a77e4f5004930315ad58087ae87161d4f8ef9fd/Mn-searchResults.png)
-
-![series genre based](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/4a77e4f5004930315ad58087ae87161d4f8ef9fd/Mn-genre-series.png)
-
-![footer](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/4a77e4f5004930315ad58087ae87161d4f8ef9fd/Mn-footer.png)
 
 # Hi, my name is Gopal ji! 👋
 
-![developer](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/e0001ec429177f27c81a2924adf90e86989c101a/Mn-Developer-page-New.png)
+![developer](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/main/movieholms/developer-page.png)
 
 ## 🚀 About Me
 
@@ -117,4 +85,4 @@ I'm a front-end web developer. I'm the developer of MovieHolms Website.
 
 ## 🛠 Skills
 
-Javascript, HTML, CSS, React.js, Tailwind css
+ React.js, Next.js ,ngular.js,TypeScript, Bootstrap,SASS,Tailwind css, Javascript, HTML, CSS,
