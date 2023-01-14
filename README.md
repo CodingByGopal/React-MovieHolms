@@ -61,7 +61,7 @@ Start the server
 
 ## Preview
 
-![Hero](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/main/movieholms/homepage-slider.png)
+![Hero](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/main/movieholms/homepage.png)
 
 ![Movies](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/main/movieholms/movies-page.png)
 ![series](https://raw.githubusercontent.com/CodingByGopal/imagesAsLink/main/movieholms/series-page.png)
